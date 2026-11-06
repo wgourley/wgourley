@@ -41,6 +41,7 @@ What I publish here is the generic half of that work — the parts that are usef
 - [avideo-tweaks](https://github.com/wgourley/avideo-tweaks) — drop-in browser fixes for AVideo
 - [vps-scripts](https://github.com/wgourley/vps-scripts) — Docker firewall, verified encrypted backups, monitoring, update-safe patches
 - [ffplayout-avideo-live](https://github.com/wgourley/ffplayout-avideo-live) — run a 24/7 TV channel with ffplayout and AVideo Live
+- [brand-kit-generator](https://github.com/wgourley/brand-kit-generator) — a complete logo package from one badge image
 
 ### Contact
 
