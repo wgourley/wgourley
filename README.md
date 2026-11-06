@@ -38,6 +38,9 @@ So anything that matters now pings an external monitor on success, and goes red 
 ### Here
 
 What I publish here is the generic half of that work — the parts that are useful to someone else and safe to share. Infrastructure configuration stays private, for obvious reasons.
+- [avideo-tweaks](https://github.com/wgourley/avideo-tweaks) — drop-in browser fixes for AVideo
+- [vps-scripts](https://github.com/wgourley/vps-scripts) — Docker firewall, verified encrypted backups, monitoring, update-safe patches
+- [ffplayout-avideo-live](https://github.com/wgourley/ffplayout-avideo-live) — run a 24/7 TV channel with ffplayout and AVideo Live
 
 ### Contact
 
