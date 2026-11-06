@@ -1,4 +1,4 @@
-## William Gourley
+# William Gourley
 
 I run a small self-hosted estate on Linux and do most of the work on it myself — the applications, the server, the mail, and the monitoring that tells me when any of it stops.
 
@@ -7,7 +7,7 @@ I run a small self-hosted estate on Linux and do most of the work on it myself �
 - **An e-commerce shop** — Bagisto on Laravel, with a custom theme and a number of controller and template overrides kept outside the vendor tree.
 - **A community forum** — Flarum, restructured from 19 categories down to 8 without losing a thread.
 - **A helpdesk** — UVdesk on Symfony, with app-level template overrides.
-- **An internet radio and TV station** — AzuraCast, AVideo and ffplayout, running in Docker.
+- **An internet radio and TV station** — [Radio Shankill Media](https://radioshankill.co.uk): AzuraCast, AVideo and ffplayout in Docker, with a 24/7 playout channel feeding the live player.
 - **A phone system** — FreePBX in Docker, behind a locked-down SIP allow-list.
 - **The mail for five domains** — Mailu, relaying through a transactional provider after a deliverability block.
 
@@ -31,6 +31,14 @@ I have found this on the same estate more times than I would like: a reload repo
 
 So anything that matters now pings an external monitor on success, and goes red when it stops. The monitor is outside the thing it watches, on purpose.
 
+### Upstream
+
+- **AVideo** — traced a bug where opening the Encoder silently logged users out of the main site (a stylesheet endpoint was replacing the session cookie). Reported with the root cause; fixed in v29.7.0.
+
 ### Here
 
 What I publish here is the generic half of that work — the parts that are useful to someone else and safe to share. Infrastructure configuration stays private, for obvious reasons.
+
+### Contact
+
+Website design and builds, VPS setup and hardening, and AzuraCast, AVideo and FreePBX installs — [williamgourley.com](https://williamgourley.com)
