@@ -7,9 +7,10 @@ I run a small self-hosted estate on Linux and do most of the work on it myself �
 - **An e-commerce shop** — Bagisto on Laravel, with a custom theme and a number of controller and template overrides kept outside the vendor tree.
 - **A community forum** — Flarum, restructured from 19 categories down to 8 without losing a thread.
 - **A helpdesk** — UVdesk on Symfony, with app-level template overrides.
-- **An internet radio and TV station** — [Radio Shankill Media](https://radioshankill.co.uk): AzuraCast, AVideo and ffplayout in Docker, with a 24/7 playout channel feeding the live player.
-- **A phone system** — FreePBX in Docker, behind a locked-down SIP allow-list.
+- **An internet radio and TV station** — AzuraCast, AVideo and ffplayout in Docker, with a 24/7 playout channel feeding the live player.
+- **An IVR phone system** — FreePBX in Docker, behind a locked-down SIP allow-list.
 - **The mail for five domains** — Mailu, relaying through a transactional provider after a deliverability block.
+-  **A personal payments portal - FossBilling, customised layout and content for my needs.
 
 All of it sits behind nginx and Cloudflare on a single VPS, with PHP-FPM, MySQL and a nightly encrypted backup to off-site storage.
 
